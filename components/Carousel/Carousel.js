@@ -1,4 +1,10 @@
 class Carousel {
+    constructor(carousel){
+        this.carousel = carousel;
+        this.leftBtn = this.carousel.querySelector(".left-button");
+        this.rightBtn = this.carousel.querySelector(".right-button");
+        this.imgList = this.carousel.querySelectorAll("img");
+    }
 
 }
 
